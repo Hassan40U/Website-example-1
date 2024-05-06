@@ -1,48 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
 nav {
-    background-color: #444;
-}
-
-ul {
-    list-style-type: none;
+    background: #444;
+    color: #fff;
     text-align: center;
-    padding: 0;
+    padding: 10px 0;
 }
 
-li {
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
-a {
-    text-decoration: none;
+.hero {
+    background: url('aviator-image.jpg') center/cover;
     color: #fff;
-}
-
-h2 {
-    color: #333;
-}
-
-p {
-    color: #666;
-    font-size: 1.1em;
+    text-align: center;
+    padding: 100px 0;
 }
 
 footer {
-    background-color: #333;
+    background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
