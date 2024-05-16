@@ -1,38 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aviator Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Aviator Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Welcome to Aviator Airlines</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section class="hero">
-        <h2>Explore the skies with Aviator Airlines</h2>
-        <p>Book your next adventure now!</p>
-        <button>Book Now</button>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Aviator Airlines. All rights reserved.</p>
-    </footer>
+    <div class="game-container">
+        <div class="plane"></div>
+        <div class="bet-options">
+            <button class="bet-btn">Bet</button>
+            <button class="cashout-btn">Cash Out</button>
+        </div>
+        <div class="winnings">0</div>
+    </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>
